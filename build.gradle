@@ -8,7 +8,10 @@ buildscript {
 
         maven {//自定义插件本地Maven仓库地址
             //本地地址
-            url uri('/repo')
+//            url uri('/repo')
+            //maven 远程地址
+            url uri('https://dl.bintray.com/orgid1/maven')
+
         }
     }
     dependencies {
@@ -18,7 +21,7 @@ buildscript {
         //jcenter上传到jcenter的工具类
         classpath 'com.novoda:bintray-release:0.9.1'
         //自定义插件
-//        classpath "com.lhp.gradle:plugin:1.0.0"
+        classpath "com.lhp.gradle:plugin:1.0.0"
     }
 }
 

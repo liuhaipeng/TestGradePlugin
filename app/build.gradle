@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 //应用自定义插件
-//apply plugin: 'com.lhp.hello.plugin'
+apply plugin: 'com.lhp.hello.plugin'
 
 
 
